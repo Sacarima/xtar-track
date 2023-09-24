@@ -66,6 +66,14 @@ const aliens = {
         'interestingFacts' : 'Some Trill are willin host to long-lived invertibrate symboite that merges wit the host to create a distinct personality.',
         'notableExamples' : 'Jadzia Dax Ezri Dax, Curzon Dax',
         'image' : 'https://static.wikia.nocookie.net/aliens/images/4/42/EzriDax.jpg'
+    },
+    'unknown': {
+        'speciesName' : 'Uknown',
+        'homeWorld' : 'Uknown',
+        'features' : 'Uknown',
+        'interestingFacts' : 'Uknown',
+        'notableExamples' : 'Uknown',
+        'image' : 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Funknown-person-icon-vector-28334794&psig=AOvVaw0_7at77JOLIXwaPqUOSORp&ust=1695616942880000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOivr763woEDFQAAAAAdAAAAABAR'
     }
 
 }
@@ -80,7 +88,7 @@ app.get('/api/:alienName', (req, res) => {
     if (aliens[alienName]) {
         return res.json(aliens[alienName]); // Return the entire object for the alien species
       } else {
-        return res.json(aliens['humans']); // Return default data for humans if alien not found
+        return res.json(aliens['unknown']); // Return default data for humans if alien not found
       }
 })
 
