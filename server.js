@@ -73,7 +73,7 @@ const aliens = {
         'features' : 'Uknown',
         'interestingFacts' : 'Uknown',
         'notableExamples' : 'Uknown',
-        'image' : 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Funknown-person-icon-vector-28334794&psig=AOvVaw0_7at77JOLIXwaPqUOSORp&ust=1695616942880000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOivr763woEDFQAAAAAdAAAAABAR'
+        'image' : 'https://snworksceo.imgix.net/dtc/3f037af6-87ce-4a37-bb37-55b48029727d.sized-1000x1000.jpg?w=1000'
     }
 
 }
